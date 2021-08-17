@@ -1,0 +1,10 @@
+@import url(./header/index.css);
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#container>main {
+    flex-grow: 1;
+}
